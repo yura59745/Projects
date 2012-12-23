@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Synhronization</title>
+ <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.css" />
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.min.js"></script>
+ <script type="text/javascript" src="http://code.jquery.com/mobile/1.0a3/jquery.mobile-1.0a3.min.js"></script>
+
+ 
+</head>
+<body>
+<!-- Start of first page -->
+<div data-role="page" id="foo">
+
+ <div data-role="header">
+ <h1>Foo</h1>
+ </div><!-- /header -->
+
+ <div data-role="content">
+
+ <p id="output"></p>
+ <p>
+ <form method="post" id="loginForm">
+ Who: <input type="text" name="who"><br /><br />
+ Pass: <input type="password" name="pass"><br />
+ <input type="submit" value="Login">
+ </form>
+ </p>
+
+ </div><!-- /content -->
+
+ <div data-role="footer">
+ <h4>Page Footer</h4>
+ </div><!-- /header -->
+</div><!-- /page -->
+</body>
+</body>
+</html>
